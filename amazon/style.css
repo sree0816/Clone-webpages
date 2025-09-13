@@ -1,0 +1,74 @@
+img{
+            margin-top:0px;
+            margin-left:698px;
+            height:34px;
+            width:145px;
+        }
+        .sign-inform{
+            border:0.5px solid rgba(0,0,0,0.2);
+            border-radius: 5px;
+            height: 271px;
+            width: 300px;
+            margin-left: 595px;
+            margin-top: 20px;
+            padding: 25px 25px;
+            font-family: Arial, sans-serif;
+        }
+        h1{padding-top:0px;
+            font-weight: lighter;
+            margin-bottom: 10px;
+        }
+        label{
+            font-weight: 500px;
+        }
+        input{
+            height: 30px;
+            width: 300px;
+            border: 1px solid rgba(0,0,0,0.6);
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button{
+            border:none;
+            border-radius: 15px;
+            background-color: rgb(245, 204, 55);
+            height: 30px;
+            width:300px;
+            margin-top:15px;
+            font-size: 14px;
+        }
+        p{
+            margin-top: 22px;
+            font-size:12px;
+            width:300px;
+
+        }
+        a{
+            color:rgb(59, 77, 193);
+        }
+        select{
+            color:black;
+            border: none;
+            font-weight: 600px;;
+        }
+        .atag{
+            text-decoration: none;
+           
+        }
+        .horizon{
+            display:flex;
+            margin-top: 30px;
+            width: 350px;
+            margin-left: 595px;
+            padding: 0;
+        }
+         
+        hr{
+            width:100px;
+            color: rgb(213, 212, 212,0.1);
+            
+        }
+        span{
+            color:rgb(80, 79, 79) ;
+            font-size:14px;
+        }
