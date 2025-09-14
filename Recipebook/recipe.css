@@ -27,11 +27,16 @@
     margin: 15px;
 }
 .pic{
-    width:90%;
-    padding:5%;
+    width:60%;
     background-color: bisque;
     margin: 5%;
-    height:100px;
+    margin-left: 100px;
+    height:200px;
+    padding-left: 30%;
+}
+img{ width:50%;
+    align-self: center;
+     height:200px;
 }
 .indg{
     width:500px;
