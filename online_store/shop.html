@@ -46,9 +46,6 @@
             </div>
         </div>
     </nav>
-    <!-- shipping form start -->
-
-
     <div class="container my-5">
         <div class="row g-4">
             <div class="col-lg-8">
@@ -58,7 +55,8 @@
                     <ul class="list-group mb-3">
                         <li class="list-group-item d-flex justify-content-between lh-sm">
                             <div>
-                                <img src="..//images/necklace3.jpg" alt="Necklace" class="img-fluid rounded me-3" style="height: 200px;width: 200px;">
+                                <img src="..//images/necklace3.jpg" alt="Necklace" class="img-fluid rounded me-3"
+                                    style="height: 200px;width: 200px;">
                                 <div>
                                     <h6 class="my-0">Delicate Solitaire Necklace</h6>
                                     <small class="text-body-secondary">Silver, 18"</small>
@@ -68,7 +66,8 @@
                         </li>
                         <li class="list-group-item d-flex justify-content-between lh-sm">
                             <div>
-                                <img src="..//images/ring1.jpg" alt="Ring" class="img-fluid rounded me-3"style="height: 200px;width: 200px;">
+                                <img src="..//images/ring1.jpg" alt="Ring" class="img-fluid rounded me-3"
+                                    style="height: 200px;width: 200px;">
                                 <div>
                                     <h6 class="my-0">Classic Gold Band</h6>
                                     <small class="text-body-secondary">Gold, size 7</small>
@@ -139,7 +138,7 @@
 
                     <hr class="my-4">
 
-                    
+
                 </div>
             </div>
 
@@ -166,12 +165,30 @@
                             <strong class="text-primary fw-bold">$265.00</strong>
                         </li>
                     </ul>
-                    <button class="w-100 btn btn-primary btn-lg mt-3" type="submit">Place Order</button>
+                    <button class="w-100 btn btn-primary btn-lg mt-3" type="button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Place Order</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- shipping ends here -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Order placed</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your order will be delivered within 4 days.
+                    Thank you for choosing us.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
