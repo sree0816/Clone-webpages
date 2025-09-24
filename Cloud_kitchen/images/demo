@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Cloud Kitchen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="about.css">
+</head>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-warning">
+    <div class="container">
+      <a class="navbar-brand text-warning fw-bold" href="#">CloudFeast</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-5 bg-warning text-black text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Our Story</h1>
+      <p class="lead">A Culinary Journey Across India & Beyond</p>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" class="img-fluid rounded shadow" alt="Kitchen Story">
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-warning fw-bold mb-3">Born in a Cloud, Rooted in Flavour</h2>
+          <p>CloudFeast started in a small, warm kitchen during monsoon nights in Kochi, where aromas of curry leaves filled the air. 
+            Our founders, travellers at heart and chefs by passion, wanted to create a space where authentic recipes meet 
+            the speed and convenience of modern life. Today, we’re more than just a cloud kitchen—we’re a virtual food haven bringing 
+            centuries of culinary heritage to your doorstep.</p>
+          <p>Every dish we create is a chapter of our story. We source our ingredients sustainably, cook with heart, 
+            and wrap every order with a promise of delight.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cuisines Section -->
+  <section class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center text-warning fw-bold mb-5">Our Signature Cuisines</h2>
+      <div class="row g-4">
+        <!-- South Indian -->
+        <div class="col-md-4">
+          <div class="card h-100 bg-black border-warning text-white">
+            <img src="https://images.unsplash.com/photo-1592991910144-8c6ec7ac8b13" class="card-img-top" alt="South Indian">
+            <div class="card-body">
+              <h5 class="card-title text-warning">South Indian</h5>
+              <p class="card-text">Steaming idlis, crispy dosas, spicy Chettinad curries—flavours that dance to the rhythm of coconut and curry leaves.</p>
+            </div>
+            <div class="card-footer bg-black border-0 text-center">
+              <a href="#" class="btn btn-warning btn-sm">Explore Menu</a>
+            </div>
+          </div>
+        </div>
+        <!-- North Indian -->
+        <div class="col-md-4">
+          <div class="card h-100 bg-black border-warning text-white">
+            <img src="https://images.unsplash.com/photo-1632821410317-1f7ed1da0072" class="card-img-top" alt="North Indian">
+            <div class="card-body">
+              <h5 class="card-title text-warning">North Indian</h5>
+              <p class="card-text">From butter-laden naans to smoky tandoori kebabs, we celebrate the hearty traditions of North Indian kitchens.</p>
+            </div>
+            <div class="card-footer bg-black border-0 text-center">
+              <a href="#" class="btn btn-warning btn-sm">Explore Menu</a>
+            </div>
+          </div>
+        </div>
+        <!-- Italian -->
+        <div class="col-md-4">
+          <div class="card h-100 bg-black border-warning text-white">
+            <img src="https://images.unsplash.com/photo-1603133872878-684f00b77c07" class="card-img-top" alt="Italian">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Italian</h5>
+              <p class="card-text">Hand-rolled pasta, wood-fired pizzas, and creamy risottos with a touch of olive oil and love.</p>
+            </div>
+            <div class="card-footer bg-black border-0 text-center">
+              <a href="#" class="btn btn-warning btn-sm">Explore Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Carousel -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center text-warning fw-bold mb-4">What Our Customers Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <p class="lead">“The South Indian platter took me back to my grandmother’s kitchen. Simply divine!”</p>
+            <small>- Ananya, Kochi</small>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">“CloudFeast’s Italian menu feels like a Roman holiday in every bite.”</p>
+            <small>- Rahul, Bangalore</small>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">“Fast, fresh, and full of flavour. North Indian thali was a treat!”</p>
+            <small>- Priya, Chennai</small>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 bg-warning text-black text-center">
+    <div class="container">
+      <h2 class="fw-bold">Hungry Yet?</h2>
+      <p>Order now and taste the story behind every dish.</p>
+      <a href="#" class="btn btn-dark btn-lg">Order Online</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-black text-center border-top border-warning">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 CloudFeast | Crafted with ❤ & Flavour</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
